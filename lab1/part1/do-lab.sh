@@ -11,3 +11,8 @@ sw ip link set eth1 master mybridge
 sw ip link set eth2 master mybridge
 sw ip link set eth3 master mybridge
 sw ip link set eth4 master mybridge
+
+sw ip link set eth1 up
+sw ip link set eth2 up
+sw ip link set eth3 up
+sw ip link set eth4 up
